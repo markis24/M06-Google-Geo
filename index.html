@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Maps</title>
+</head>
+<body>
+    <div id="map"></div>
+    <input type="text" id="adreca" placeholder="Buscar dirección"
+        value="Carrer de la Selva de Mar 211 08020 Barcelona" />
+    <button id="findLoc">Buscar dirección</button>
+    <br>
+    <input type="text" id="latitude" placeholder="Latitud" />
+    <input type="text" id="longitude" placeholder="Longitud" />
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD1LqPNfReHlA4RTAU1YOuVKZxTqvCPa0g&callback=initMap"
+        async defer></script>
+
+<script src="js/code.js"></script>
+</body>
+</html>
